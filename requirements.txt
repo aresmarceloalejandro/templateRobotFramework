@@ -1,0 +1,10 @@
+robotframework == 7.0.1
+robotframework-requests == 0.9.7
+robotframework-seleniumlibrary == 6.3.0
+robotframework-screencaplibrary == 1.6.0
+robotframework-jsonlibrary == 0.5
+allure-robotframework == 2.13.2
+allure-combine == 1.0.11
+webdriver_manager == 4.0.2
+robotframework-tidy == 4.13.0
+robotframework-pabot == 2.18.0

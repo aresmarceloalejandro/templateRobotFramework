@@ -1,0 +1,44 @@
+[tool.robotidy]
+overwrite = true
+diff = false
+spacecount = 2
+indent = 4
+line-length = 120
+transform = [
+    "AddMissingEnd",
+    "InlineIf",
+    "MergeAndOrderSections",
+    "NormalizeAssignments",
+    "NormalizeNewLines",
+    "NormalizeSectionHeaderName",
+    "NormalizeSettingName",
+    "OrderSettings",
+    "OrderSettingsSection",
+    "RemoveEmptySettings",
+    "RenameKeywords",
+    "RenameTestCases",
+    "ReplaceBreakContinue",
+    "ReplaceReturns",
+    "ReplaceRunKeywordIf",
+    "AlignSettingsSection",
+    "AlignVariablesSection",
+    "AlignKeywordsSection",
+    "AlignTestCasesSection",
+    "DiscardEmptySections",
+    "SplitTooLongLine",
+    "SmartSortKeywords"
+
+]
+configure = [
+    "AlignSettingsSection: fixed_width = 28",
+    "AlignSettingsSection: up_to_column=4",
+    "AlignVariablesSection: fixed_width = 24",
+    "NormalizeNewLines:section_lines=2",
+    "NormalizeAssignments:equal_sign_type=remove",
+    "SplitTooLongLine:split_on_every_arg=False",
+    "RenameTestCases:capitalize_each_word=True",
+    "AlignKeywordsSection:widths=24,28,28,28",
+    "AlignTestCasesSection:widths=24,28,28,28",
+    "NormalizeNewLines:consecutive_lines=0",
+    "SmartSortKeywords:enabled=True"
+]
